@@ -1,8 +1,8 @@
 package com.customer;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportResource;
+        import org.springframework.boot.SpringApplication;
+        import org.springframework.boot.autoconfigure.SpringBootApplication;
+        import org.springframework.context.annotation.ImportResource;
 
 /**
  * Created by zouxiang on 2017/6/30.

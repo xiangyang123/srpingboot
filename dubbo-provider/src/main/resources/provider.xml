@@ -9,4 +9,6 @@
     <bean id="commonService" class="com.provider.service.impl.CommonServiceImpl"></bean>
     <dubbo:service interface="com.service.TestService" ref="testService"/>
     <bean id="testService" class="com.provider.service.impl.TestServiceImpl"/>
+    <dubbo:service interface="com.service.UserService" ref="userService"/>
+    <bean id="userService" class="com.provider.service.impl.UserServiceImpl" />
 </beans>

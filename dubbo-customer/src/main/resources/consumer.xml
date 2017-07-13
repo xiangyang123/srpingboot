@@ -7,4 +7,5 @@
     <dubbo:registry check="false" address="zookeeper://localhost:2181"/>
     <dubbo:reference interface="com.service.CommonService" id="commonService"/>
     <dubbo:reference interface="com.service.TestService" id="testService"/>
+    <dubbo:reference interface="com.service.UserService" id="userService"/>
 </beans>
